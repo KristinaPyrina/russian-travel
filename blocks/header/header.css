@@ -1,0 +1,28 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 77px;
+    grid-template-areas: "header__logo header__link";
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 56px;
+}
+
+@media screen and (max-width: 1279px) {
+    .header {
+        width: calc(100% - 48px * 2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: calc(100% - 24px * 2);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: calc(100% - 16px * 2);
+        grid-template-columns: 1fr 62px;
+    }
+}

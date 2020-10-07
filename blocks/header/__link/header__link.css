@@ -1,0 +1,6 @@
+.header__link {
+    grid-area: header__link;
+    display: flex;
+    margin-top: 18px;
+}
+

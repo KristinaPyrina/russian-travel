@@ -1,0 +1,23 @@
+.cover__item {
+    max-width: 1184px;
+    height: 100%;
+    position: relative;
+}
+
+.cover__item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover__item:hover:before {
+    background: #2A2C2F;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.3s linear;
+}
